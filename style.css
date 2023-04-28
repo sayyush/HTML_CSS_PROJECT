@@ -1,0 +1,36 @@
+h1{
+    color: #0000ff;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h2{
+    font-size: 25px; 
+    color: rgb(35, 248, 15); 
+    font-family: cursive; 
+}
+p{
+    color: rgb(255, 127, 172);
+}
+
+.Class1{
+    color: chocolate;
+    background-color: aqua;
+}
+
+#id123{
+    color: red;
+    background-color: #32540a;
+}
+.img1{
+    
+    width: 40%;
+    border: 3px solid royalblue;
+    margin: 10px;
+}
+
+.img2{
+    height: 200px; 
+    width: 200px;
+    border: 3px dashed #e14149;
+    padding: 10px;
+}
