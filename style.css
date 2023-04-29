@@ -21,6 +21,7 @@ p{
     color: red;
     background-color: #32540a;
 }
+
 .img1{
     
     width: 40%;
@@ -33,4 +34,41 @@ p{
     width: 200px;
     border: 3px dashed #e14149;
     padding: 10px;
+}
+
+li{
+    color: hsl(36, 65%, 29%);
+}
+
+body{
+
+    background-color: #e4ffc4; 
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQGmyFIY3ZNplw/company-background_10000/0/1596152714244?e=2159024400&v=beta&t=dKaVV5hMBg2aH9s30b93_U4qEY2Yofxz0dj2s5mDJZQ);
+    background-repeat: no-repeat;
+
+}
+
+iframe{
+    width: 700px;
+    height: 300px;
+    border: 5px solid red;
+}
+
+table{
+    border: 2px solid hsl(41, 79%, 18%);
+    background-color: bisque;
+}
+th{
+    border: 2px solid hsl(41, 79%, 18%);
+
+
+}
+
+td{
+    border: 2px solid hsl(41, 79%, 18%);
+}
+
+#phoneId{
+    color: #e14149;
+    background-color: yellow;
 }
