@@ -1,74 +1,75 @@
-h1{
+h1 {
     color: #0000ff;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
-    font-size: 25px; 
-    color: rgb(35, 248, 15); 
-    font-family: cursive; 
+h2 {
+    font-size: 25px;
+    color: rgb(35, 248, 15);
+    font-family: cursive;
 }
-p{
+
+p {
     color: rgb(255, 127, 172);
 }
 
-.Class1{
+.Class1 {
     color: chocolate;
     background-color: aqua;
 }
 
-#id123{
+#id123 {
     color: red;
     background-color: #32540a;
 }
 
-.img1{
-    
+.img1 {
+
     width: 40%;
     border: 3px solid royalblue;
     margin: 10px;
 }
-
-.img2{
-    height: 200px; 
+.img2 {
+    height: 200px;
     width: 200px;
     border: 3px dashed #e14149;
     padding: 10px;
 }
 
-li{
+li {
     color: hsl(36, 65%, 29%);
 }
 
-body{
+body {
 
-    background-color: #e4ffc4; 
+    background-color: #e4ffc4;
     background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQGmyFIY3ZNplw/company-background_10000/0/1596152714244?e=2159024400&v=beta&t=dKaVV5hMBg2aH9s30b93_U4qEY2Yofxz0dj2s5mDJZQ);
     background-repeat: no-repeat;
 
 }
 
-iframe{
+iframe {
     width: 700px;
     height: 300px;
     border: 5px solid red;
 }
 
-table{
+table {
     border: 2px solid hsl(41, 79%, 18%);
     background-color: bisque;
 }
-th{
+
+th {
     border: 2px solid hsl(41, 79%, 18%);
 
 
 }
 
-td{
+td {
     border: 2px solid hsl(41, 79%, 18%);
 }
 
-#phoneId{
+#phoneId {
     color: #e14149;
     background-color: yellow;
 }

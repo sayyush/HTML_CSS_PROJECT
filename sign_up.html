@@ -1,47 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <link rel="stylesheet" type="text/CSS" href="formStyle.css" </head>
+
 <body>
-    <h1>Techpro Education Student Registration Form</h1>
-    <legend>Open An Account</legend><br>
-    <form>
-        <label>Full Name</label><br>
-        <input type="text" placeholder="Enter your full name"><br>
-        <label>Username</label><br>
-        <input type="text" placeholder="Enter your username"><br>
-        <label>Password</label><br>
-        <input type="password" placeholder="Enter your password"><br>
-        <label>Password</label><br>
-        <input type="password" placeholder="Re-Type your password"><br>
-        <label>Email</label><br>
-        <input type="email" placeholder="Enter your email"><br>
-        <label>Languages</label><br>
-        <input type="checkbox">
-        <label>English</label><br>
-        <input type="checkbox">
-        <label>Turkish</label><br>
-        <input type="checkbox">
-        <label>Arabic</label><br>
-        <input type="checkbox">
-        <label>Spanish</label><br>
-        <label>Gender</label><br>
-        <input type="radio">
-        <label>Male</label>
-        <input type="radio">
-        <label>Female</label>
-        <input type="radio">
-        <label>Other</label><br><br>
-        <label>Select Your Birthday</label><br>
-       <input type="date">
-       
 
-    </form>
+    <center>
+        <h1>Techpro Education Student Registration Form</h1>
+        <fieldset>
 
+            <legend>Open An Account</legend><br>
+            <form>
+                <label>Full Name</label><br>
+                <input type="text" placeholder="Firstname Lastname"><br>
+                <label>Username</label><br>
+                <input type="text" placeholder="username123"><br>
+                <label>Password</label><br>
+                <input type="password" placeholder="password123"><br>
+                <label>Password Again</label><br>
+                <input type="password" placeholder="password123"><br>
+                <label>Email</label><br>
+                <input type="email" placeholder="email@xxx.com"><br>
+                <label>Languages</label><br>
+                <input type="checkbox">
+                <label class="languages">English</label>
+                <input type="checkbox">
+                <label class="languages">Turkish</label>
+                <input type="checkbox">
+                <label class="languages">Arabic</label>
+                <input type="checkbox">
+                <label class="languages">Spanish</label><br>
+
+                <div style="margin-top: 5px;"><label>Gender</label><br></div>
+
+                <input name="gender" type="radio">
+                <label class="gender">Male</label>
+                <input name="gender" type="radio">
+                <label class="gender">Female</label>
+                <input name="gender" type="radio">
+                <label class="gender">Other</label><br><br>
+
+                <label>Select Your Birthday</label><br>
+                <input type="date"><br><br>
+
+                <label>Select Your Country</label><br>
+                <select>
+                    <option disabled selected>Options</option>
+                    <option>Germany</option>
+                    <option>Turkey</option>
+                    <option>USA</option>
+                    <option>Japan</option>
+                </select>
+                <br><br>
+
+                <label>Select Your Pets Color</label><br>
+                <input type="color"><br><br>
+
+                <label>Upload Your Image</label><br>
+                <input type="file"><br><br>
+
+                <label>Phone Number</label><br>
+                <input placeholder="xxx-xxx-xxxx" type="tel"><br><br>
+
+                <label>About You</label><br>
+                <textarea name="" id="" cols="30" rows="10">Tell me about yourself:</textarea>
+
+                <div style="margin-left: 10px;"><br><input type="submit" value="Accept"></div>
+
+            </form>
+        </fieldset>
+    </center>
+
+    <script>
+
+        var actualUsername = "John";
+        var actualPassword = "John.123";
+
+        var counter = 3;
+
+        while (true) {
+            counter--;
+            var username = prompt("Enter Username");
+            var password = prompt("Enter Password");
+            if (username == actualUsername & password == actualPassword) {
+                alert("You signed in succesfully");
+                break;
+            } else {
+                alert("Try again! You have " + counter + " time(s) try");
+            }
+
+            if (counter == 0) {
+                alert("Blocked");
+                while (true) {
+
+                }
+            }
+        }
+
+    </script>
 
 </body>
+
 </html>
